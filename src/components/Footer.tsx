@@ -34,8 +34,7 @@ const Footer = () => {
         </h2>
 
         <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+          Every great project starts with a conversation. Connect with us today — we’re ready to help you plan, build, and succeed.
         </p>
 
         <a
@@ -57,8 +56,7 @@ const Footer = () => {
               <span className="font-semibold">orklytics</span>
             </Link>
             <p className="text-lg text-primary-foreground/80 max-w-xs mx-auto md:mx-0">
-              A trusted company formed to help your business grow.
-            </p>
+              WorkLytics is a trusted partner helping businesses worldwide achieve sustainable growth.            </p>
           </div>
 
           {/* Useful Links */}

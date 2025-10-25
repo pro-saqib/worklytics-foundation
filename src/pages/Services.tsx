@@ -3,17 +3,18 @@ import OurProcess from "@/components/OurProcess";
 import Services2 from "@/components/services/Services2";
 import FAQsection from "@/components/FAQSection";
 import PagesHero from "@/components/hero/PagesHero";
-import { Star } from "lucide-react";
+import { Sparkle } from "lucide-react";
 
 const Services = () => {
   return (
     <Layout>
       <PagesHero
-        icon={Star}
+        icon={Sparkle}
         badgeText="Our Services"
-        heading="We offer a wide range of services"
-        description="We provide detailed information about what services are, how they work, and how they can meet the needs or solve problems of target customers. We have provided various types of services specifically to help your business."
-      />      
+        heading="Transforming Your Business Through Technology"
+        description="WorkLtyics delivers IT consultancy solutions that help businesses innovate, optimize, and grow. From software development to data analytics and cloud services, we provide tailored strategies that drive real results."
+      />
+
       <Services2 />
       <OurProcess />
       <FAQsection />

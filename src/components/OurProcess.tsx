@@ -4,36 +4,34 @@ import { cn } from '@/lib/utils';
 const processSteps = [
     {
         number: '01',
-        title: 'Choose Your Service',
-        description: 'Ut enim ad minima veniam nostrum exercitationem ullam suscipit.',
+        title: 'Select Your Solution',
+        description: 'Explore our range of IT consultancy services and choose the one that best fits your business goals and technology needs.',
         borderColorClass: 'border-blue-500',
         bgColorClass: 'bg-blue-100/15',
     },
     {
         number: '02',
-        title: 'Make Appointment',
-        description: 'Quis autem vel eum iure reprehen deritqui in ea voluptate.',
+        title: 'Schedule Consultation',
+        description: 'Book a meeting with our experts to discuss your requirements, objectives, and the best approach to achieve them.',
         borderColorClass: 'border-orange-500',
         bgColorClass: 'bg-orange-100/15',
-
     },
     {
         number: '03',
-        title: 'Completed Payment',
-        description: 'Etharum quidem rerum facilis est et expedita distinctio.',
+        title: 'Plan & Execute',
+        description: 'We design a tailored strategy and implement solutions efficiently, ensuring minimal disruption and maximum impact for your business.',
         borderColorClass: 'border-purple-500',
         bgColorClass: 'bg-purple-100/15',
-
     },
     {
         number: '04',
-        title: 'Enjoy Your Services',
-        description: 'Etharum quidem rerum facilis est et expedita distinctio.',
+        title: 'Achieve Results',
+        description: 'Measure the outcomes, optimize processes, and enjoy the tangible benefits of smarter, technology-driven business solutions.',
         borderColorClass: 'border-green-500',
         bgColorClass: 'bg-green-100/15',
-
     },
 ];
+
 
 const OurProcess = () => {
     return (
@@ -48,9 +46,7 @@ const OurProcess = () => {
                         Our simple 4 step process
                     </h2>
                     <p className="text-primary-foreground/70 max-w-4xl mx-auto">
-                        Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-                        accusantium doloremque laudantium elit.Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-                        accusantium doloremque laudantium elit.
+                        At WorkLtyics, we follow a streamlined process to ensure every project delivers measurable impact. From understanding your unique business needs to implementing tailored IT solutions, our approach combines strategy, technology, and expertise to drive results efficiently and effectively. Here’s how we make it happen:
                     </p>
                 </div>
 

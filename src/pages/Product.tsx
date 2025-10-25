@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import ProductHero from "@/components/hero/ProductHero"
 import FAQsection from "@/components/FAQSection";
 import { Trophy } from "lucide-react";
-import Testimonials from "@/components/Testimonials";
+import Testimonials from "@/components/Testimonials-BK";
 import TrustedBy from "@/components/TrustedBy";
 import Features from "@/components/Features";
 import ProductInfo from "@/components/ProductInfo";
@@ -13,11 +13,9 @@ const Product = () => {
         <Layout>
             <ProductHero
                 icon={Trophy}
-                badgeText="#1 Best HR Software"
-                heading="WorkLytics: One Easy-to-Use Platform for Everything HR"
-                description="Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-            accusantium doloremque laudantium elit.Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-            accusantium doloremque laudantium elit."
+                badgeText="WorkLtyics"
+                heading="#1 Best HR Software"
+                description="Manage your entire workforce with ease. WorkLytics brings together the tools you need to hire, manage, and empower employees — helping your HR team work smarter, not harder."
             />
             <TrustedBy />
             <Features />

@@ -1,35 +1,36 @@
 const timelineData = [
     {
         year: 1998,
-        title: 'We Founded',
+        title: 'Company Founded',
         description:
-            'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi explicabo.',
+            'WorkLtyics was founded with a vision to help businesses harness the power of technology through data-driven insights and custom software solutions. What started as a small consultancy quickly became a trusted name in IT innovation.',
     },
     {
         year: 2005,
-        title: 'Add Banking Channels',
+        title: 'Expanded IT Consulting Services',
         description:
-            'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.',
+            'We broadened our expertise to include enterprise IT consulting, cloud infrastructure, and digital transformation strategies — helping clients adapt to rapidly changing technological demands.',
     },
     {
         year: 2012,
-        title: 'Expand Team 11000+',
+        title: 'Team Grows Beyond 100 Experts',
         description:
-            'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.',
+            'Our continued success attracted top engineering and data talent from around the world. WorkLtyics grew to a global network of IT professionals focused on delivering scalable, secure, and intelligent business solutions.',
     },
     {
         year: 2018,
-        title: 'Certified With AdWords',
+        title: 'Achieved Industry Certifications',
         description:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            'WorkLtyics became recognized for its excellence in cloud computing, analytics, and cybersecurity, achieving multiple certifications that strengthened our credibility and expanded client partnerships.',
     },
     {
         year: 2022,
-        title: '342K Joining Company',
+        title: 'Serving 342+ Businesses Worldwide',
         description:
-            'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+            'By 2022, we reached a milestone of empowering over 342,000 businesses with technology-driven insights and digital solutions that optimize operations and accelerate growth.',
     },
 ];
+
 
 const CompanyHistory = () => {
     return (
@@ -43,10 +44,9 @@ const CompanyHistory = () => {
                             The story behind how our company was founded
                         </h2>
                         <p className="text-muted-foreground">
-                            Sed ut perspiciatis unde omnis iste natus error sit amet libero tempore
-                            voluptatem accusantium doloremque.Sed ut perspiciatis unde omnis iste natus error sit amet libero tempore
-                            voluptatem accusantium doloremque.Sed ut perspiciatis unde omnis iste natus error sit amet libero tempore
-                            voluptatem accusantium doloremque.
+                            Since our founding, WorkLtyics has been driven by a single goal — to empower organizations with smarter technology and meaningful data insights.
+                            From humble beginnings to a global IT consultancy, our journey reflects a commitment to innovation, collaboration, and measurable business impact.
+
                         </p>
                     </div>
 

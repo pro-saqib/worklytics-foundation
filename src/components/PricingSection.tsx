@@ -47,7 +47,8 @@ const PricingSection = () => {
               Choose a plan fits to your needs
             </h2>
             <p className="text-muted-foreground mb-10">
-              Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem accusantium doloremque laudantium elit.
+              Select a WorkLtyics plan designed to match your team size and business needs.
+              From startups to enterprises, our flexible pricing ensures you get the features and support needed to optimize workforce productivity and drive results.
             </p>
             {/* Numbered Features List */}
             <div className="space-y-6">

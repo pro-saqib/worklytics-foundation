@@ -20,23 +20,24 @@ const ProductInfo = () => {
                             <span className="text-sm font-medium">Why WorkLytics</span>
                         </div>
                         <h2 className="text-4xl lg:text-5xl font-semibold mb-8 leading-tight">
-                            The values that shape everything better
+                            Smarter Workforce Management with WorkLtyics
                         </h2>
                         <h4 className="font-semibold mb-2 text-lg">
-                            Unlock your business potential?
+                            Streamline your operations, boost productivity
                         </h4>
                         <p className="text-muted-foreground  mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam.
+                            WorkLtyics software is designed to help organizations optimize workforce performance through advanced analytics, real-time insights, and automation.
+                            Track productivity, improve collaboration, and make data-driven decisions — all from a single, easy-to-use platform built to scale with your business.
                         </p>
 
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-                >
-                  <Link to="/contact">Contact Us</Link>
-                </Button>
+                        <Button
+                            asChild
+                            className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
+                        >
+                            <Link to="/contact">Request a Demo</Link>
+                        </Button>
                     </div>
-                    
+
                     {/* Left Column (Image) */}
                     <div>
                         <div className="relative rounded-lg overflow-hidden group">

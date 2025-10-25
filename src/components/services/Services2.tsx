@@ -84,12 +84,12 @@ const Services2 = () => {
         {/* Header Area */}
         <div className="grid md:grid-cols-2 md:gap-32 gap-8 mb-16 items-center">
           <h2 className="text-4xl lg:text-5xl font-semibold text-foreground leading-[1.25em!important]">
-            Discover the power of our superior services
+            Comprehensive IT Solutions for Your Business
           </h2>
           <p className="text-muted-foreground">
-            Explore our diverse range of IT services designed to modernize your
-            business operations, enhance scalability, and deliver measurable
-            impact.
+            At WorkLtyics, we provide a wide range of IT consultancy services designed to help businesses thrive in a digital-first world.
+            From strategy and software development to cloud solutions and data analytics, our expert team delivers tailored solutions that optimize operations, enhance efficiency, and drive measurable growth.
+
           </p>
         </div>
 

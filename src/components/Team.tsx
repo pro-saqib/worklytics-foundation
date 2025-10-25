@@ -10,42 +10,42 @@ import team8 from '@/assets/team/team8.png';
 // Data for the team members based on the image
 const teamData = [
     {
-        imageUrl: team1,  
+        imageUrl: team1,
         name: 'Cedric Matthews',
         title: 'CEO & Founder',
     },
     {
-        imageUrl: team2,  
+        imageUrl: team2,
         name: 'Carmen Reyes',
         title: 'CTO & Co-Founder',
     },
     {
-        imageUrl: team3,  
+        imageUrl: team3,
         name: 'Angela Briggs',
         title: 'Chief Financia3 Officer',
     },
     {
-        imageUrl: team4, 
+        imageUrl: team4,
         name: 'Wilmot Elledge',
         title: 'Chief Revenue Officer',
     },
     {
-        imageUrl: team5,  
+        imageUrl: team5,
         name: 'Gary Hart',
         title: 'Chief Product Officer',
     },
     {
-        imageUrl: team6, 
+        imageUrl: team6,
         name: 'Lane Mcgee',
         title: 'General Counsel',
     },
     {
-        imageUrl: team7,  
+        imageUrl: team7,
         name: 'Alvin Eiland',
         title: 'Head Of Business',
     },
     {
-        imageUrl: team8,  
+        imageUrl: team8,
         name: 'Eda Barlow',
         title: 'Chief of Staff',
     },
@@ -60,9 +60,8 @@ const Team = () => {
                         Meet with our executive team
                     </h2>
                     <p className="text-muted-foreground max-w-4xl mx-auto">
-                        Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-                        accusantium doloremque laudantium elit.Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-                        accusantium doloremque laudantium elit.
+                        At WorkLtyics, our executive team brings together decades of experience in technology, strategy, and business transformation.
+                        United by a shared vision, they lead with innovation, integrity, and a commitment to helping organizations thrive in the digital era.
                     </p>
                 </div>
 

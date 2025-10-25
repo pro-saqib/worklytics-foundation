@@ -20,21 +20,21 @@ const ProductSection = () => {
                             <Trophy className="w-5 h-5" />
                             <span className="text-sm font-medium">#1 Best HR Software</span>
                         </div>
-                        <h2 className="text-4xl lg:text-5xl font-semibold mb-8 leading-tight">
-                            The values that shape everything better
+                        <h2 className="text-4xl lg:text-5xl font-semibold mb-8 leading-[1.25em!important]">
+                            One Easy-to-Use Platform for Everything HR
                         </h2>
                         <p className="text-muted-foreground mb-12">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam.
+                            Manage your entire workforce with ease. WorkLytics brings together the tools you need to hire, manage, and empower employees — helping your HR team work smarter, not harder.
                         </p>
 
                         {/* Buttons */}
                         <div className="flex gap-4">
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-                >
-                  <Link to="/contact">Contact Us</Link>
-                </Button>
+                            <Button
+                                asChild
+                                className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
+                            >
+                                <Link to="/contact">Contact Us</Link>
+                            </Button>
                             <Button variant="ghost" className="text-white border border-white/50 hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">Start Free Trial</Button>
                         </div>
                     </div>

@@ -15,22 +15,22 @@ const CompanyValues = () => {
             Icon: Handshake,
             bgColor: "bg-purple-100",
             iconColor: "text-purple-600",
-            title: "Commitment",
-            text: "We are always committed to improving the quality that can bring success and satisfaction to your business.",
+            title: "Partnership",
+            text: "We believe in building long-term partnerships based on trust, transparency, and shared success. Every client relationship is a collaboration aimed at creating measurable business impact.",
         },
         {
             Icon: Globe,
             bgColor: "bg-orange-100",
             iconColor: "text-orange-600",
-            title: "Accessibility",
-            text: "Always provide business-specific accessibility that can be used by people with various abilities and disabilities.",
+            title: "Innovation",
+            text: "We embrace technology as a force for progress, constantly exploring new ideas and solutions that help businesses stay ahead in an ever-evolving digital landscape.",
         },
         {
             Icon: Gem,
             bgColor: "bg-green-100",
             iconColor: "text-green-600",
-            title: "Openness",
-            text: "Openness will drive growth, innovation, collaboration, strong relationships in personal and professional contexts.",
+            title: "Integrity",
+            text: "Integrity defines how we work — from the way we communicate to the solutions we deliver. We hold ourselves accountable to the highest ethical and professional standards.",
         },
     ];
 
@@ -50,13 +50,14 @@ const CompanyValues = () => {
                             <span className="text-sm font-medium">Core values</span>
                         </div>
                         <h2 className="text-4xl lg:text-5xl font-semibold mb-8 leading-tight">
-                            The values that shape everything better
+                            The values that define who we are
                         </h2>
                         <h4 className="font-semibold mb-2 text-lg">
-                            Unlock your business potential?
+                            Empowering businesses through technology and trust
                         </h4>
-                        <p className="text-muted-foreground  mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim ad minim veniam.
+                        <p className="text-muted-foreground mb-8">
+                            At WorkLtyics, our values guide every decision we make and every solution we build.
+                            We combine innovation, integrity, and collaboration to deliver IT consultancy services that truly make a difference — helping businesses grow smarter, faster, and stronger.
                         </p>
 
                         <Button

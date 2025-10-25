@@ -1,11 +1,11 @@
-import { 
-  Users, 
-  ClipboardList, 
-  Clock, 
-  BarChart3, 
-  ShieldCheck, 
-  HeartHandshake, 
-  GraduationCap, 
+import {
+  Users,
+  ClipboardList,
+  Clock,
+  BarChart3,
+  ShieldCheck,
+  HeartHandshake,
+  GraduationCap,
   UserCircle2,
 } from "lucide-react";
 
@@ -59,7 +59,7 @@ const featureData = [
     iconBgColor: 'bg-cyan-100',
     iconTextColor: 'text-cyan-600',
   },
-    {
+  {
     icon: GraduationCap,
     title: 'Learning & Development',
     description:
@@ -89,7 +89,7 @@ const Features = () => {
           </h2>
 
           <p className="text-muted-foreground">
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            At WorkLtyics, we combine technology expertise with strategic insight to deliver solutions that drive real business impact. Our features — from advanced analytics to scalable IT infrastructure — are designed to help organizations innovate, optimize processes, and achieve measurable growth.
           </p>
 
         </div>

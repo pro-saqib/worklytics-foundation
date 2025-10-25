@@ -5,7 +5,6 @@ import Stats from "@/components/Stats";
 import { Link } from "react-router-dom";
 
 const HomeHero = () => {
- 
 
   return (
     <section className="relative bg-[radial-gradient(at_top_center,_#101e8a_0%,_#010630_65%)] text-primary-foreground overflow-hidden">
@@ -26,26 +25,25 @@ const HomeHero = () => {
 
             {/* Description */}
             <p className="text-lg text-primary-foreground/70 max-w-xl">
-              Helping you build brand awareness, build credibility and connect with customers, stakeholders and potential employees.
-            </p>
+              Empowering your business to track productivity, enhance collaboration, and achieve measurable results with smarter workforce management.            </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pb-14 border-b border-white/20">
-            <Button
-              asChild
-              className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-            >
-              <Link to="/contact">Contact Us</Link>
-            </Button>
+              <Button
+                asChild
+                className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
+              >
+                <Link to="/contact">Contact Us</Link>
+              </Button>
               <Button variant="ghost" className="text-white hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">
                 <Play className="w-5 h-5 fill-white" />
                 Watch Video
               </Button>
             </div>
 
-          {/* Stats */}
-          <Stats valueColor="text-forground" />
-             
+            {/* Stats */}
+            <Stats valueColor="text-forground" />
+
           </div>
 
           {/* Right Hero Image */}

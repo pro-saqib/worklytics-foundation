@@ -37,11 +37,11 @@ const WhyUS = () => {
                         <img
                             src={businesswoman}
                             alt="Businesswoman working"
-                            className="rounded-lg shadow-lg w-full h-auto object-cover max-h-[750px]"
+                            className="rounded-lg shadow-lg w-full h-auto object-cover object-top max-h-[650px]"
                         />
 
                         {/* Sale Report Card Overlay */}
-                        <div className="absolute top-2/4 -left-8 sm:-left-12 bg-card p-4 rounded-lg shadow-xl w-48 sm:w-60 border animate-fade-in animation-delay-200">
+                        <div className="absolute top-1/4 -left-8 sm:-left-12 bg-card p-4 rounded-lg shadow-xl w-48 sm:w-60 border animate-fade-in animation-delay-200">
                             <div className="flex items-center gap-2 mb-2">
                                 <Avatar className="h-6 w-6">
                                     <AvatarImage src={avatarImageUrl} alt="Stephan Chen" />
@@ -70,7 +70,7 @@ const WhyUS = () => {
                         </div>
 
                         {/* Summary Card Overlay */}
-                        <div className="sm:block hidden absolute bottom-4 sm:bottom-8 right-0 sm:-right-8 bg-card p-4 rounded-lg shadow-xl w-48 sm:w-56 border animate-fade-in animation-delay-400">
+                        <div className=" absolute bottom-4 sm:bottom-12  -right-8 sm:-right-8 bg-card p-4 rounded-lg shadow-xl w-48 sm:w-56 border animate-fade-in animation-delay-400">
                             <p className="text-sm font-semibold text-foreground mb-3">Summary</p>
                             <div className="flex items-center gap-4">
                                 {/* Placeholder Pie Chart */}
@@ -102,8 +102,7 @@ const WhyUS = () => {
                             Driving success through expertise and passion
                         </h2>
                         <p className="text-muted-foreground mb-8 text-base leading-relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                            We combine deep industry expertise with innovative strategies to help your business grow faster, smarter, and stronger. Our team is dedicated to delivering measurable results and long-term success through precision, insight, and passion.                        </p>
 
                         {/* Bullet Points */}
                         <div className="grid grid-cols-2 gap-x-8 gap-y-4 mb-10">
@@ -122,12 +121,12 @@ const WhyUS = () => {
 
                         {/* CTA Section */}
                         <div className="flex flex-wrap items-center gap-6">
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-                >
-                  <Link to="/about">About Us</Link>
-                </Button>
+                            <Button
+                                asChild
+                                className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
+                            >
+                                <Link to="/about">About Us</Link>
+                            </Button>
                             <div className="flex items-center gap-3">
                                 <Avatar className="h-10 w-10 border-2 border-muted">
                                     <AvatarImage src={avatarImageUrl} alt="Support Agent" />
