@@ -27,7 +27,7 @@ const PagesHero = ({ icon: Icon, badgeText, heading, description }: HeroSectionP
               </div>
 
               {/* Heading */}
-              <h1 className="text-5xl md:text-5xl lg:text-6xl font-semibold leading-[1.25em!important]">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.25em!important]">
                 {heading}
               </h1>
             </div>

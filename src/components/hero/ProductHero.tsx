@@ -25,7 +25,7 @@ const ProductHero = ({ icon: Icon, badgeText, heading, description }: ProductHer
             </div>
 
             {/* Heading */}
-            <h1 className="text-5xl md:text-5xl lg:text-6xl font-semibold leading-[1.25em!important]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.25em!important]">
               {heading}
             </h1>
             <p className="text-primary-foreground/70 max-w-4xl mx-auto mb-6">

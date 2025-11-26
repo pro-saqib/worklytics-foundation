@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeCheck, Wrench, Headset } from "lucide-react";
+import { BadgeCheck, Headset, Layers } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const GradientDefs = ({ gradients = [] }) => {
@@ -24,7 +24,7 @@ const featuresData = [
     colors: ["#498eff", "#49ff97"],
   },
   {
-    icon: Wrench,
+    icon: Layers,
     title: "Tailored Solutions",
     colors: ["#ff4949", "#fff949"],
   },
@@ -57,7 +57,7 @@ const Features = ({
               key={index}
               className={cn(index < 2 && `border-r ${borderColor} md:pr-6 pr-4`)}
             >
-              <div className="flex flex-col items-start gap-4 md:items-center md:text-center">
+              <div className="flex flex-col items-start gap-4 items-center text-center">
                 <Icon
                   className="w-8 h-8"
                   stroke={`url(#g${index})`}
