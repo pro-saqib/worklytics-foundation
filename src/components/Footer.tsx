@@ -8,6 +8,7 @@ import {
   Youtube,
   MessageCircle,
 } from "lucide-react";
+import CtaButtons from "./CtaButtons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,7 +24,7 @@ const Footer = () => {
       ></div>
 
       {/* Top Section */}
-      <div className="container mx-auto px-4 text-center">
+      <div className="container flex flex-col items-center mx-auto px-4 text-center">
         <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20 mb-8">
           <Clock size={16} className="text-white" />
           <span className="text-sm">We Ready 24 Hours</span>
@@ -33,17 +34,12 @@ const Footer = () => {
           Have a project in mind? Let's Talk
         </h2>
 
-        <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
           Every great project starts with a conversation. Connect with us today — we’re ready to help you plan, build, and succeed.
         </p>
 
-        <a
-          href="tel:+12111-444-90"
-          className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
-        >
-          <Phone size={20} />
-          <span className="font-semibold">+12 111-444-90</span>
-        </a>
+        <CtaButtons containerClass="mb-4 justify-center md:justify-start"/>
+
       </div>
 
       {/* Main Footer */}
@@ -101,14 +97,14 @@ const Footer = () => {
           {/* Find Us */}
           <div className="space-y-3 text-primary-foreground/80">
             <h4 className="font-semibold mb-6 text-primary-foreground">Find Us</h4>
-            <p>Mon - Sat: 8am - 9pm</p>
+            <p>Mon - Sat: 9am - 5pm</p>
             <p className="font-semibold">
-              Jl. Merdeka Raya No.73B,
+              18 Dowletts Road, Dagenham,
               <br />
-              London, UK
+              England, RM8 1FJ
             </p>
             <p>Project offers</p>
-            <p className="font-semibold break-words">worklytics@support.com</p>
+            <p className="font-semibold break-words">support@worklytics.co.uk</p>
           </div>
         </div>
 

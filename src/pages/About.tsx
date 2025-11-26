@@ -40,9 +40,9 @@ const About = () => {
         </div>
       </section>
 
-      <CompanyHistory />
+      {/* <CompanyHistory /> */}
       <CompanyValues />
-      <Team/>
+      {/* <Team/> */}
       
     </Layout>
   );

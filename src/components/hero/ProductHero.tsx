@@ -1,4 +1,4 @@
-import { Trophy } from "lucide-react";
+import { MessageCircle, Trophy } from "lucide-react";
 import { Button } from '@/components/ui/button';
 import productImage from '@/assets/worklytics-sc.jpg';
 import { LucideIcon } from "lucide-react";
@@ -37,9 +37,11 @@ const ProductHero = ({ icon: Icon, badgeText, heading, description }: ProductHer
                 asChild
                 className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
               >
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact">Contact Us <MessageCircle className="w-6 h-6 fill-white" /></Link>
               </Button>
-              <Button variant="ghost" className="text-white border border-white/50 hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">Start Free Trial</Button>
+              <Button variant="ghost" className="text-white border border-white/50 hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">
+                <Link to="/pricing">Get Free Trial</Link>
+              </Button>
             </div>
           </div>
         </div>

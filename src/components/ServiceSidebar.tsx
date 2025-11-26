@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Layers, Cloud, RefreshCw, Settings, Cpu, BarChart4, ServerCog } from 'lucide-react';
+import { Layers, Cloud, RefreshCw, Settings, Cpu, BarChart4, ServerCog, MoveUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { Card } from '@/components/ui/card'; // Import Card
@@ -100,15 +100,15 @@ const ServiceSidebar: React.FC = () => {
       <div className="text-primary-foreground rounded-lg p-8 flex-start flex-col bg-[radial-gradient(at_top_right,_#101e8a_0%,_#010630_77%)]">
         <h3 className="text-lg font-semibold mb-3">
           Can't find what you're looking for?            </h3>
-        <p className="text-sm opacity-80 mb-8 flex-grow">
+        <p className="text-sm text-primary-foreground/80 mb-8 flex-grow">
           You can consult
           for free or ask for any service from us.
         </p>
         <Button
           asChild
-          className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
+          className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-sm font-semibold"
         >
-          <Link to="/contact">Request Service</Link>
+          <Link to="/contact">Request Service <MoveUpRight className="w-6 h-6 fill-white" /></Link>
         </Button>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { Menu, X, Mail, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-
+import CtaButtons from "./CtaButtons";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -139,12 +139,9 @@ const Header = () => {
               ))}
             </div>
 
-            <Link to="/contact">
-              <Button className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-6 py-3 h-auto flex items-center gap-3 w-fit">
-                Let's Talk
-                <Mail className="w-5 h-5" />
-              </Button>
-            </Link>
+             
+
+            <CtaButtons containerClass="flex-row-reverse" phoneButtonClass="border-none"/>
           </div>
 
           {/* Mobile Menu Button */}
@@ -237,7 +234,7 @@ const Header = () => {
           <div className="mt-auto pt-8">
             <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
               <Button className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-6 py-3 h-auto flex items-center gap-2 w-fit">
-                Let's Talk
+                Contact Us
                 <Mail className="w-5 h-5" />
               </Button>
             </Link>

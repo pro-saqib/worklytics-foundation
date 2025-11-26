@@ -10,9 +10,9 @@ const Index = () => {
   return (
     <Layout>
       <HomeHero />
-      <TrustedBy />
+      {/* <TrustedBy /> */}
       <Services1 />
-      <WhyUS />
+      {/* <WhyUS /> */}
       <ProductSection />
       <Testimonials /> 
     </Layout>

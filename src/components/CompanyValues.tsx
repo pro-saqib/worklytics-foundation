@@ -7,6 +7,8 @@ import {
     HandHeart,
 } from "lucide-react";
 import { Link } from 'react-router-dom';
+import PhoneButton from './PhoneButton';
+import CtaButtons from './CtaButtons';
 
 const CompanyValues = () => {
 
@@ -55,17 +57,13 @@ const CompanyValues = () => {
                         <h4 className="font-semibold mb-2 text-lg">
                             Empowering businesses through technology and trust
                         </h4>
-                        <p className="text-muted-foreground mb-8">
+                        <p className="text-primary-foreground/80 mb-8">
                             At WorkLtyics, our values guide every decision we make and every solution we build.
                             We combine innovation, integrity, and collaboration to deliver IT consultancy services that truly make a difference — helping businesses grow smarter, faster, and stronger.
                         </p>
 
-                        <Button
-                            asChild
-                            className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-                        >
-                            <Link to="/contact">Contact Us</Link>
-                        </Button>
+                        <CtaButtons />
+
                     </div>
 
                     {/* Right Column (Core Values) */}

@@ -7,6 +7,7 @@ import {
   Cpu,
   BarChart4,
   ArrowRight,
+  MoveUpRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -123,7 +124,7 @@ const Services1 = () => {
               asChild
               className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
             >
-              <Link to="/services">All Services</Link>
+              <Link to="/services">All Services<MoveUpRight className="w-6 h-6 fill-white" /></Link>
             </Button>
           </div>
         </div>

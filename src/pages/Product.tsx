@@ -17,7 +17,7 @@ const Product = () => {
                 heading="#1 Best HR Software"
                 description="Manage your entire workforce with ease. WorkLytics brings together the tools you need to hire, manage, and empower employees — helping your HR team work smarter, not harder."
             />
-            <TrustedBy />
+            {/* <TrustedBy /> */}
             <Features />
             <ProductInfo />
             <PricingSection />

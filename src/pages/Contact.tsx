@@ -26,28 +26,28 @@ const Contact = () => {
       bgColor: "bg-purple-100",
       iconColor: "text-purple-600",
       title: "Office",
-      text: "Jl. Merdeka Raya No.73B",
+      text: "18 Dowletts Road, Dagenham, England, RM8 1FJ",
     },
     {
       Icon: Phone,
       bgColor: "bg-orange-100",
       iconColor: "text-orange-600",
       title: "Phone",
-      text: "(021) 111 444 90",
+      text: "+44 7900 925 247",
     },
     {
       Icon: Clock,
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
       title: "Work Hours",
-      text: "Everyday 09 am - 07 pm",
+      text: "Everyday 09 am - 05 pm",
     },
     {
       Icon: Mail,
       bgColor: "bg-green-100",
       iconColor: "text-green-600",
       title: "Email",
-      text: "worklytics@support.com",
+      text: "support@worklytics.co.uk",
     },
   ];
 
@@ -58,7 +58,7 @@ const Contact = () => {
     { label: "Instagram", Icon: Instagram, bgColor: "bg-pink-600", href: "#" },
   ];
 
-  const mapAddress = "Jl. Merdeka Raya No.73B";
+  const mapAddress = "18 Dowletts Road, Dagenham, England, RM8 1FJ";
   const googleMapsEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(mapAddress)}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
 
   return (

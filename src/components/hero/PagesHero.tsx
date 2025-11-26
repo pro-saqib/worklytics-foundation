@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 import { LucideIcon } from "lucide-react";
 import { Link } from "react-router-dom";
+import CtaButtons from "../CtaButtons";
 
 interface HeroSectionProps {
   icon: LucideIcon;
@@ -37,22 +38,7 @@ const PagesHero = ({ icon: Icon, badgeText, heading, description }: HeroSectionP
             <div className="md:space-y-8 space-y-14 animate-fade-in">
               <p className="text-base md:text-lg text-primary-foreground/80">{description}</p>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-wrap gap-4">
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
-                >
-                  <Link to="/contact">Contact Us</Link>
-                </Button>
-                <Button
-                  variant="ghost"
-                  className="text-white hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2"
-                >
-                  <Play className="w-5 h-5 fill-white" />
-                  Watch Video
-                </Button>
-              </div>
+              <CtaButtons />
             </div>
           </div>
         </div>

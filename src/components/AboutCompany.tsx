@@ -28,7 +28,7 @@ const AboutCompany = () => {
                         </div>
 
                         {/* Stats */}
-                        <Stats valueColor="text-blue-foreground" labelColor="text-muted-primary" borderColor="border-primary/10" />
+                        <Stats titleColor="text-blue-foreground" borderColor="border-primary/10" />
 
                     </div>
 
@@ -82,7 +82,7 @@ const AboutCompany = () => {
 
                         {/* Founder Info */}
                         <div>
-                            <p className="font-semibold text-foreground">Cedric Matthews</p>
+                            <p className="font-semibold text-foreground">Janita Murtaza</p>
                             <p className="text-sm text-muted-foreground">CEO & Founder</p>
                         </div>
                     </div>

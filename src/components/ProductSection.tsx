@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import productImage from '@/assets/worklytics-sc.jpg';
-import { Trophy } from "lucide-react";
+import { MoveUpRight, Trophy } from "lucide-react";
 import { Link } from 'react-router-dom';
 
 
@@ -23,7 +23,7 @@ const ProductSection = () => {
                         <h2 className="text-4xl lg:text-5xl font-semibold mb-8 leading-[1.25em!important]">
                             One Easy-to-Use Platform for Everything HR
                         </h2>
-                        <p className="text-muted-foreground mb-12">
+                        <p className="text-primary-foreground/80 mb-12">
                             Manage your entire workforce with ease. WorkLytics brings together the tools you need to hire, manage, and empower employees — helping your HR team work smarter, not harder.
                         </p>
 
@@ -33,9 +33,11 @@ const ProductSection = () => {
                                 asChild
                                 className="bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 transition-opacity text-white rounded-full px-8 py-3 h-auto text-base font-semibold"
                             >
-                                <Link to="/contact">Contact Us</Link>
+                                <Link to="/product">Explore more <MoveUpRight className="w-6 h-6 fill-white" /></Link>
                             </Button>
-                            <Button variant="ghost" className="text-white border border-white/50 hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">Start Free Trial</Button>
+                            <Button variant="ghost" className="text-white border border-white/50 hover:bg-white/10 rounded-full px-6 py-3 h-auto text-base font-semibold flex items-center gap-2">
+                                <Link to="/pricing">Get Free Trial</Link>
+                            </Button>
                         </div>
                     </div>
 
